@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="adminn.master.cs" Inherits="adminn" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="AdminStyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="kutu">
+        
+
+        <div class="slider"></div>
+        <div class="govde">
+            <div class="govdesol">
+                <div class="govdesolbaslik">&nbsp; Menüler</div>
+                <div class="govdesolicerik">
+                    <div style="height:25px;color:#2a595c;font-weight:bolder;margin-top:3px;background-image:url(/Resimler/back4.jpg);background-position:center">&ensp;&ensp;&ensp;&ensp;&ensp;<a href="AdminKullaniciEkle.aspx"> -Kullanıcılar</a></div>
+                    <div style="height:25px;color:#2a595c;font-weight:bolder;margin-top:3px;background-image:url(/Resimler/back4.jpg);background-position:center">&ensp;&ensp;&ensp;&ensp;&ensp; <a href="AdminAracEkle.aspx">-Araçlar</a></div>
+                    <div style="height:25px;color:#2a595c;font-weight:bolder;margin-top:3px;background-image:url(/Resimler/back4.jpg);background-position:center">&ensp;&ensp;&ensp;&ensp;&ensp; <a href="AdminRandevu.aspx"> -Randevu</a></div>
+                    <div style="height:25px;color:#2a595c;font-weight:bolder;margin-top:3px;background-image:url(/Resimler/back4.jpg);background-position:center">&ensp;&ensp;&ensp;&ensp;&ensp; <a href="AdminMesaj.aspx">-Mesajlar</a></div>
+                   
+
+
+                </div>
+                    
+                    
+            </div>
+            <div class="govdesag">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                 </asp:ContentPlaceHolder>
+            </div>
+
+        </div>
+        <div class="alt"></div>
+
+    </div>
+    </form>
+</body>
+</html>
